@@ -68,6 +68,32 @@ Le simulateur Excel joint recalcule automatiquement primes et provisions pour n'
 
 ---
 
+---
+
+### [03 — Modélisation des valeurs extrêmes, fleuve Sénégal à Bakel](./03_valeurs_extremes_EVT/)
+
+Application de la théorie des valeurs extrêmes (EVT) aux débits maximaux annuels du fleuve Sénégal à Bakel sur 71 ans (1950-2020).
+
+La série présente une rupture en 1976, identifiée par le test de Pettitt, qui délimite une période humide et une période sèche liées à la grande sécheresse sahélienne. Le débit moyen maximal passe de 4 200 m³/s à 2 600 m³/s, soit une baisse de 38 %.
+
+Le projet compare un modèle GEV stationnaire à un modèle GEV non-stationnaire intégrant la pluviométrie annuelle comme covariable sur le paramètre de localisation. Le modèle non-stationnaire est retenu (ΔAIC > 4). Les niveaux de retour pour T = 10, 50 et 100 ans sont estimés avec intervalles de confiance à 95 % par bootstrap paramétrique.
+
+**Outils :** R, extRemes, trend, ggplot2
+
+---
+
+### [04 — Analyse de survie, cancer gastrique](./04_modeles_de_survie/)
+
+Analyse de la survie d'une cohorte de patients atteints de cancer de l'estomac. Le taux de censure est de 32 %, traité correctement par les méthodes non-paramétriques.
+
+L'estimateur de Kaplan-Meier fournit les fonctions de survie globale et stratifiées par sexe et par traitement. Le test du log-rank compare les quatre modalités thérapeutiques (sans traitement, chirurgie, radiothérapie, chimiothérapie). Le modèle de Cox à risques proportionnels identifie les facteurs pronostiques indépendants après ajustement.
+
+La chimiothérapie est associée au meilleur pronostic (HR = 0,42, IC 95 % : [0,28 ; 0,63] par rapport au groupe sans traitement). L'âge au diagnostic est un facteur de risque indépendant (HR = 1,03 par année, p = 0,01). L'hypothèse de proportionnalité des risques est vérifiée par les résidus de Schoenfeld.
+
+**Outils :** R, survival, survminer, ggplot2
+
+---
+
 ## Structure du dépôt
 
 ```
@@ -77,13 +103,25 @@ projets-finance-actuariat/
 │   ├── brvm.xlsx
 │   ├── page_de_garde.pdf
 │   └── README.md
-└── 02_actuariat_deces_emprunteur/
-    ├── note_technique_actuarielle.pdf
-    ├── simulateur_deces_emprunteur.xlsx
+├── 02_actuariat_deces_emprunteur/
+│   ├── note_technique_actuarielle.pdf
+│   ├── simulateur_deces_emprunteur.xlsx
+│   └── README.md
+├── 03_valeurs_extremes_EVT/
+│   ├── rapport_EVT_Bakel.pdf
+│   ├── code_EVT_Bakel.R
+│   ├── Bakel_Debit_Max_Pluie_Annuel.xlsx
+│   ├── Tableaux_Bakel_Synthese.xlsx
+│   └── README.md
+└── 04_modeles_de_survie/
+    ├── Rapport_Final.pdf
+    ├── code_survie.R
+    ├── Base_Projet_DC_Ensae_25_26_OK.csv
+    ├── modele_survie.xlsx
     └── README.md
 ```
 
-Les fichiers sources (.Rmd, .tex) ne sont pas versionnés dans ce dépôt.
+Les fichiers sources (.Rmd, .tex, .R brouillons) ne sont pas versionnés dans ce dépôt.
 
 ---
 
