@@ -16,11 +16,9 @@ Le fleuve Sénégal à Bakel est un point de mesure hydrologique de référence 
 
 | Fichier | Description |
 |---|---|
-| `rapport_EVT_Bakel.pdf` | Rapport complet de l'analyse |
-| `code_EVT_Bakel.R` | Script R reproductible |
+| `Rapport_Final_AWOUTO_Koffi_Samson.pdf` | Rapport complet de l'analyse |
+| `Code_R_Final_AWOUTO_Koffi_Samson.R` | Script R reproductible |
 | `Bakel_Debit_Max_Pluie_Annuel.xlsx` | Données brutes (débits m³/s et pluies mm, 1950-2020) |
-| `Tableaux_Bakel_Synthese.xlsx` | Tableaux de résultats synthétiques |
-| `page_de_garde.pdf` | Page de garde du projet |
 
 ---
 
@@ -42,7 +40,7 @@ On ajuste d'abord une loi GEV (Generalized Extreme Value) stationnaire sur l'ens
 - ξ > 0 : Fréchet (queues lourdes)
 - ξ < 0 : Weibull (queue bornée)
 
-Les paramètres μ (localisation), σ (échelle) et ξ (forme) sont estimés par maximum de vraisemblance.
+Les paramètres μ (localisation), σ (échelle) et ξ (forme) sont estimés par maximum de vraisemblance via le package `evd`.
 
 ### Modélisation GEV non-stationnaire
 
@@ -72,10 +70,11 @@ Le modèle GEV non-stationnaire est significativement meilleur que le modèle st
 
 ```r
 # Packages requis
-install.packages(c("readxl", "extRemes", "trend", "ggplot2", "car", "gridExtra", "e1071"))
+install.packages(c("readxl", "evd", "ggplot2", "gridExtra", "e1071",
+                   "knitr", "kableExtra", "car"))
 
-# Exécuter le script
-source("code_EVT_Bakel.R")
+# Exécuter le script (données dans le même répertoire)
+source("Code_R_Final_AWOUTO_Koffi_Samson.R")
 ```
 
 Les données sont dans `Bakel_Debit_Max_Pluie_Annuel.xlsx`, à placer dans le même répertoire que le script.

@@ -84,13 +84,13 @@ Le projet compare un modèle GEV stationnaire à un modèle GEV non-stationnaire
 
 ### [04 — Analyse de survie, cancer gastrique](./04_modeles_de_survie/)
 
-Analyse de la survie d'une cohorte de patients atteints de cancer de l'estomac. Le taux de censure est de 32 %, traité correctement par les méthodes non-paramétriques.
+Analyse de la survie d'une cohorte de 200 patients atteints de cancer de l'estomac. Le taux de censure est de 51 %, traité correctement par les méthodes non-paramétriques.
 
-L'estimateur de Kaplan-Meier fournit les fonctions de survie globale et stratifiées par sexe et par traitement. Le test du log-rank compare les quatre modalités thérapeutiques (sans traitement, chirurgie, radiothérapie, chimiothérapie). Le modèle de Cox à risques proportionnels identifie les facteurs pronostiques indépendants après ajustement.
+L'estimateur de Kaplan-Meier fournit les fonctions de survie globale et stratifiées par sexe, traitement et classe d'âge. Le test du log-rank compare les quatre modalités thérapeutiques. Le modèle de Cox identifie les facteurs pronostiques indépendants après sélection descendante par critère AIC.
 
-La chimiothérapie est associée au meilleur pronostic (HR = 0,42, IC 95 % : [0,28 ; 0,63] par rapport au groupe sans traitement). L'âge au diagnostic est un facteur de risque indépendant (HR = 1,03 par année, p = 0,01). L'hypothèse de proportionnalité des risques est vérifiée par les résidus de Schoenfeld.
+L'absence de traitement est le facteur de risque le plus lourd (HR = 3,82 par rapport à la chirurgie). Les antécédents médicaux personnels constituent le facteur dominant du modèle ajusté (HR = 7,03). L'âge augmente le risque de 5,3 % par année supplémentaire. L'indice de concordance du modèle final est de 0,81.
 
-**Outils :** R, survival, survminer, ggplot2
+**Outils :** R, survival, survminer, ggplot2, forestmodel, muhaz
 
 ---
 
@@ -108,13 +108,12 @@ projets-finance-actuariat/
 │   ├── simulateur_deces_emprunteur.xlsx
 │   └── README.md
 ├── 03_valeurs_extremes_EVT/
-│   ├── rapport_EVT_Bakel.pdf
-│   ├── code_EVT_Bakel.R
+│   ├── Rapport_Final_AWOUTO_Koffi_Samson.pdf
+│   ├── Code_R_Final_AWOUTO_Koffi_Samson.R
 │   ├── Bakel_Debit_Max_Pluie_Annuel.xlsx
-│   ├── Tableaux_Bakel_Synthese.xlsx
 │   └── README.md
 └── 04_modeles_de_survie/
-    ├── Rapport_Final.pdf
+    ├── Koffi_Samson_AWOUTO.pdf
     ├── code_survie.R
     ├── Base_Projet_DC_Ensae_25_26_OK.csv
     ├── modele_survie.xlsx
