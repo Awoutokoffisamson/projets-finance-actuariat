@@ -10,7 +10,7 @@ Ce dépôt regroupe les travaux réalisés dans le cadre des cours de gestion de
 
 ## Projets
 
-### [01 — Gestion de portefeuille sur la BRVM](./01_gestion_portefeuille_BRVM/)
+### [01. Gestion de portefeuille sur la BRVM](./01_gestion_portefeuille_BRVM/)
 
 Construction et optimisation d'un portefeuille d'actions coté sur la Bourse Régionale des Valeurs Mobilières (BRVM), marché de l'UEMOA.
 
@@ -35,7 +35,7 @@ Données extraites via le package R `BRVM` (API sikafinance.com), complétées p
 
 ---
 
-### [02 — Note technique actuarielle, décès emprunteur sur plusieurs têtes](./02_actuariat_deces_emprunteur/)
+### [02. Note technique actuarielle, décès emprunteur sur plusieurs têtes](./02_actuariat_deces_emprunteur/)
 
 Proposition de note technique pour un produit d'assurance décès emprunteur souscrit par deux co-emprunteurs dans le cadre réglementaire CIMA.
 
@@ -68,9 +68,7 @@ Le simulateur Excel joint recalcule automatiquement primes et provisions pour n'
 
 ---
 
----
-
-### [03 — Modélisation des valeurs extrêmes, fleuve Sénégal à Bakel](./03_valeurs_extremes_EVT/)
+### [03. Modélisation des valeurs extrêmes, fleuve Sénégal à Bakel](./03_valeurs_extremes_EVT/)
 
 Application de la théorie des valeurs extrêmes (EVT) aux débits maximaux annuels du fleuve Sénégal à Bakel sur 71 ans (1950-2020).
 
@@ -82,7 +80,7 @@ Le projet compare un modèle GEV stationnaire à un modèle GEV non-stationnaire
 
 ---
 
-### [04 — Analyse de survie, cancer gastrique](./04_modeles_de_survie/)
+### [04. Analyse de survie, cancer gastrique](./04_modeles_de_survie/)
 
 Analyse de la survie d'une cohorte de 200 patients atteints de cancer de l'estomac. Le taux de censure est de 51 %, traité correctement par les méthodes non-paramétriques.
 

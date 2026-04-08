@@ -110,7 +110,7 @@ Le facteur de risque dominant est la présence d'antécédents médicaux personn
 
 Deux interactions significatives sont confirmées par test du rapport de vraisemblance : Age × Sexe (p = 0,008) et Traitement × Age (p = 0,012), indiquant que l'efficacité relative des traitements varie selon l'âge du patient. Cette hétérogénéité d'effet est une information utile pour la segmentation tarifaire en assurance maladie ou dépendance.
 
-Le test global de Schoenfeld rejette l'hypothèse de proportionnalité des risques (p = 3,3×10⁻¹¹). Un modèle stratifié sur la variable Épigastralgies est proposé comme alternative, avec des coefficients très proches du modèle principal, ce qui conforte la robustesse clinique des conclusions.
+Le test global de Schoenfeld rejette l'hypothèse de proportionnalité des risques (p = 3,3×10⁻¹¹). Un modèle stratifié sur la variable Épigastralgies est proposé comme alternative, avec des coefficients très proches du modèle principal, ce qui confirme que les conclusions tiennent sous une spécification alternative.
 
 Les résidus de martingale ne montrent pas de non-linéarité flagrante pour les variables continues.
 
