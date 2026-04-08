@@ -92,30 +92,44 @@ L'absence de traitement est le facteur de risque le plus lourd (HR = 3,82 par ra
 
 ---
 
+### [05. Tableau de bord RSU, Burkina Faso](./05_rsu_burkina/)
+
+Application web de suivi du Registre Social Unique (RSU) du Burkina Faso. Elle visualise la couverture RSU par région, province et commune, avec filtres dynamiques, drilldown cartographique et export des données.
+
+Réécriture complète d'une version R Shiny vers Python (Flask) et React.
+
+| Composant | Stack |
+|---|---|
+| Backend | Python 3.11, Flask, GeoPandas |
+| Frontend | React, Leaflet |
+| Déploiement | Docker, Hugging Face Spaces |
+
+**Dépôt :** [github.com/Awoutokoffisamson/rsu-dashboard](https://github.com/Awoutokoffisamson/rsu-dashboard)
+
+---
+
+### [06. Application Shiny interactive, subdivisions du Burkina Faso](./06_dashboard_shiny_burkina/)
+
+Application Shiny pour explorer les subdivisions administratives du Burkina Faso (réforme 2025) : 17 régions, 47 provinces et 351 communes. Carte interactive, tableaux filtrables et graphiques de population issus du RGPH 2019.
+
+**Application en ligne :** [mesapplications.shinyapps.io/Burkina_Faso_Subdivisions_2025](https://mesapplications.shinyapps.io/Burkina_Faso_Subdivisions_2025/)
+
+**Dépôt :** [github.com/Awoutokoffisamson/burkina_application_shiny](https://github.com/Awoutokoffisamson/burkina_application_shiny)
+
+**Outils :** R, Shiny, Leaflet, sf, Plotly
+
+---
+
 ## Structure du dépôt
 
 ```
 projets-finance-actuariat/
 ├── 01_gestion_portefeuille_BRVM/
-│   ├── Dossier_Gestion_Portefeuille_ISE3_2026.pdf
-│   ├── brvm.xlsx
-│   ├── page_de_garde.pdf
-│   └── README.md
 ├── 02_actuariat_deces_emprunteur/
-│   ├── note_technique_actuarielle.pdf
-│   ├── simulateur_deces_emprunteur.xlsx
-│   └── README.md
 ├── 03_valeurs_extremes_EVT/
-│   ├── Rapport_Final_AWOUTO_Koffi_Samson.pdf
-│   ├── Code_R_Final_AWOUTO_Koffi_Samson.R
-│   ├── Bakel_Debit_Max_Pluie_Annuel.xlsx
-│   └── README.md
-└── 04_modeles_de_survie/
-    ├── Koffi_Samson_AWOUTO.pdf
-    ├── code_survie.R
-    ├── Base_Projet_DC_Ensae_25_26_OK.csv
-    ├── modele_survie.xlsx
-    └── README.md
+├── 04_modeles_de_survie/
+├── 05_rsu_burkina/
+└── 06_dashboard_shiny_burkina/
 ```
 
 Les fichiers sources (.Rmd, .tex, .R brouillons) ne sont pas versionnés dans ce dépôt.
