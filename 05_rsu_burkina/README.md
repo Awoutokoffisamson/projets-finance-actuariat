@@ -62,3 +62,11 @@ Le projet fait suite à une version R Shiny et constitue une réécriture compl�
 ## Données
 
 Les données RSU sont confidentielles et ne sont pas incluses dans ce dépôt. Seuls les shapefiles géographiques publics sont versionnés.
+
+---
+
+## Importance pour la banque et l'assurance
+
+La constitution de tableaux de bord interactifs basés sur des systèmes d'informations géographiques (SIG) est aujourd'hui une compétence clé pour le ciblage stratégique en banque ou en assurance :
+- L'analyse spatiale (géomarketing) permet à une banque de décider de l'implantation de nouvelles succursales ou d'identifier des zones sous-bancarisées.
+- Une compagnie d'assurance ou une mutuelle de santé peut l'utiliser pour cartographier la pénétration de ses produits ou localiser précisément l'exposition au risque (zones inondables, zones de pandémies) et concentrer ses efforts de prévention.

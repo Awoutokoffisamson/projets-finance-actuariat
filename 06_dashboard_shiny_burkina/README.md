@@ -49,3 +49,11 @@ shiny::runApp(".")
 ## Licence
 
 CC BY-NC-SA 4.0. Toute utilisation commerciale est interdite sans autorisation de l'auteur.
+
+---
+
+## Importance pour la banque et l'assurance
+
+Le développement d'applications interactives de cartographie offre un atout stratégique aux directions des risques et au développement commercial des banques et assurances :
+- L’analyse de la population par subdivision permet de concevoir une micro-assurance ciblée et une offre de crédit bancaire adaptée aux dynamiques territoriales.
+- Ces tableaux de bord permettent de visualiser les volumes de risques et opportunités pour ajuster la politique de souscription régionale et prévoir des besoins financiers localisés de manière interactive.

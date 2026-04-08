@@ -131,3 +131,12 @@ df <- read.csv("Base_Projet_DC_Ensae_25_26_OK.csv",
                check.names = FALSE)
 source("code_survie.R")
 ```
+
+---
+
+## Importance pour la banque et l'assurance
+
+Comme détaillé dans l'introduction de ce projet, les modèles de survie sont au cœur de la tarification et de l'évaluation des risques en assurance (modèles multi-états, assurance santé, dépendance et prévoyance). En banque, les mêmes modèles sont appliqués pour le risque de crédit. La maîtrise de ces outils pointus permet :
+- De tarifer dynamiquement les produits de rentes, retraite ou santé en introduisant des caractéristiques complexes des assurés (covariables).
+- De provisionner de façon différenciée suivant le profil de l'assuré en prenant en compte la censure d'une durée d'observation.
+- D'appliquer ces modèles de survie algorithmique à l'analyse du délai avant défaut de crédit pour une banque, anticipant ainsi le risque financier.

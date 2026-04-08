@@ -103,3 +103,12 @@ rmarkdown::render("Dossier_Gestion_Portefeuille_ISE3_2026.Rmd",
 - Greenblatt, J. (2006). *The Little Book That Still Beats the Market*. Wiley.
 - Sessie, K.F. (2024). Package R BRVM. [github.com/Koffi-Fredysessie/BRVM](https://github.com/Koffi-Fredysessie/BRVM)
 - BCEAO (2026). Résultats des adjudications de bons du Trésor. UMOA-Titres.
+
+---
+
+## Importance pour la banque et l'assurance
+
+Ce projet démontre une maîtrise complète de la chaîne de gestion quantitative d'actifs. Pour une société d'assurance (dans le cadre de la gestion de ses actifs représentatifs des provisions techniques) ou une banque (pour sa salle de marché ou la gestion de ses OPCVM), les modèles présentés permettent :
+- D'optimiser l'allocation d'actifs pour maximiser le rendement sous contrainte de risque, essentiel pour garantir les engagements envers les assurés.
+- D'automatiser la sélection de titres sous-évalués via des critères fondamentaux et techniques, offrant un avantage compétitif sur le marché.
+- De backtester rigoureusement des stratégies d'investissement avant leur déploiement afin de maîtriser le risque de perte en capital.

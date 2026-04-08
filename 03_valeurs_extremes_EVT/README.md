@@ -78,3 +78,11 @@ source("Code_R_Final_AWOUTO_Koffi_Samson.R")
 ```
 
 Les données sont dans `Bakel_Debit_Max_Pluie_Annuel.xlsx`, à placer dans le même répertoire que le script.
+
+---
+
+## Importance pour la banque et l'assurance
+
+L'application de la théorie des valeurs extrêmes (EVT) est primordiale pour la réassurance et l'assurance dommages spécialisée dans les risques climatiques (assurances agricoles, risques industriels). Ce projet permet de :
+- Mieux quantifier la probabilité et la sévérité d'événements catastrophiques (inondations, sécheresses), essentiels pour la tarification des contrats d'assurance périls climatiques.
+- Intégrer des covariables comme la pluviométrie dans des modèles non stationnaires, cruciaux pour tenir compte du dérèglement climatique et ajuster le capital de solvabilité des assurances et réassureurs face aux sinistres extrêmes.

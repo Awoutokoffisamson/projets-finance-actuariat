@@ -96,3 +96,12 @@ Les feuilles suivantes calculent automatiquement les fonctions de commutation, l
 Code des assurances CIMA, livre II, titre IV : provisions techniques.
 Tables de mortalité CIMA H et CIMA F, annexes réglementaires.
 Taux technique maximum : article 338-7 du code CIMA.
+
+---
+
+## Importance pour la banque et l'assurance
+
+La maîtrise technique démontrée dans cette note est vitale pour toute compagnie d'assurance-vie commercialisant des produits de prévoyance, ou pour toute banque proposant des crédits (via la bancassurance). Elle permet d'assurer :
+- Une tarification juste, compétitive et prudente des garanties décès-invalidité sur un crédit pour limiter la sélection adverse.
+- Une estimation précise des engagements (provisions mathématiques, sinistres à payer) conformément au code CIMA, garantissant l'équilibre de la compagnie.
+- La capacité à modéliser finement le risque lié à des assurés multiples sur un même contrat (co-emprunteurs, conjoints), une complexité fréquente en assurance de crédit.
