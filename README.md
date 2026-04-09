@@ -120,6 +120,20 @@ Application Shiny pour explorer les subdivisions administratives du Burkina Faso
 
 ---
 
+### [07. Modélisation de la volatilité ARCH(1), Bitcoin](./07_econometrie_finance_ARCH_Bitcoin/)
+
+Simulation et estimation par Quasi-Maximum de Vraisemblance (QMLE) d'un modèle ARCH(1) sur les rendements du Bitcoin. Le moteur d'estimation est programmé intégralement à la main avec gradient analytique.
+
+Le projet comprend :
+- Simulation de trajectoires (Gauss/Student) et étude du regroupement de volatilité.
+- Programmation du contraste gaussien et calcul du gradient exact.
+- Étude de Monte-Carlo pour valider la vitesse de convergence en racine de n.
+- Application au Bitcoin : identification des pics de variance historiques et arbitrage ARCH vs GARCH par critère d'information AIC.
+
+**Outils :** R, R Markdown (XeLaTeX), ggplot2, quantmod
+
+---
+
 ## Structure du dépôt
 
 ```
@@ -129,7 +143,8 @@ projets-finance-actuariat/
 ├── 03_valeurs_extremes_EVT/
 ├── 04_modeles_de_survie/
 ├── 05_rsu_burkina/
-└── 06_dashboard_shiny_burkina/
+├── 06_dashboard_shiny_burkina/
+└── 07_econometrie_finance_ARCH_Bitcoin/
 ```
 
 Les fichiers sources (.Rmd, .tex, .R brouillons) ne sont pas versionnés dans ce dépôt.
