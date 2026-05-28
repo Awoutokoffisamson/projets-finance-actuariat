@@ -134,6 +134,18 @@ Le projet comprend :
 
 ---
 
+### [08. Analyse et tarification en assurance auto](./08_tarification_assurance_auto/)
+
+Étude en finance et actuariat portant sur le domaine de l'assurance automobile, incluant l'analyse des données, la modélisation et la tarification (Projet réalisé par GADO Giovanni et AWOUTO Samson).
+
+Dans le cadre de ce projet, une application Shiny a été développée pour présenter les résultats de façon interactive et permettre une meilleure appréhension du modèle de tarification.
+
+**Application en ligne :** [mesapplications.shinyapps.io/lys-assurance-auto](https://mesapplications.shinyapps.io/lys-assurance-auto/)
+
+**Outils :** R, R Markdown, Shiny
+
+---
+
 ## Structure du dépôt
 
 ```
@@ -144,7 +156,8 @@ projets-finance-actuariat/
 ├── 04_modeles_de_survie/
 ├── 05_rsu_burkina/
 ├── 06_dashboard_shiny_burkina/
-└── 07_econometrie_finance_ARCH_Bitcoin/
+├── 07_econometrie_finance_ARCH_Bitcoin/
+└── 08_tarification_assurance_auto/
 ```
 
 Les fichiers sources (.Rmd, .tex, .R brouillons) ne sont pas versionnés dans ce dépôt.
