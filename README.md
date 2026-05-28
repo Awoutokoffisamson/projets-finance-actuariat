@@ -136,13 +136,19 @@ Le projet comprend :
 
 ### [08. Analyse et tarification en assurance auto](./08_tarification_assurance_auto/)
 
-Étude en finance et actuariat portant sur le domaine de l'assurance automobile, incluant l'analyse des données, la modélisation et la tarification (Projet réalisé par GADO Giovanni et AWOUTO Samson).
+Étude actuarielle complète portant sur la tarification en assurance automobile, basée sur l'approche classique fréquence-sévérité (Projet réalisé par GADO Giovanni et AWOUTO Samson).
 
-Dans le cadre de ce projet, une application Shiny a été développée pour présenter les résultats de façon interactive et permettre une meilleure appréhension du modèle de tarification.
+Le projet s'appuie sur la base de données du *3rd Pricing Game* (100 000 polices d'assurance) et couvre toute la chaîne de modélisation actuarielle :
+- **Analyse exploratoire :** traitement des valeurs aberrantes (winsorisation), étude des corrélations et profilage des risques (véhicules, conducteurs).
+- **Modélisation de la fréquence :** ajustement et sélection par méthode itérative descendante (AIC) d'un modèle de comptage. Modèles testés : Poisson, Binomial Négatif, ZIP, ZINB. Le modèle de Poisson a été retenu.
+- **Modélisation de la sévérité :** test des modèles Gamma, Log-normal et Inverse Gaussien pour estimer le coût des sinistres. Choix du modèle Log-normal.
+- **Tarification :** estimation de la prime pure individuelle sur un jeu de validation, et application d'une marge de sécurité de 15 % pour déterminer la prime commerciale.
+
+Dans le cadre de ce projet, une application Shiny a été développée pour rendre le modèle opérationnel et accessible. Elle offre un outil interactif de simulation de primes basé sur les caractéristiques de risque saisies par l'utilisateur.
 
 **Application en ligne :** [mesapplications.shinyapps.io/lys-assurance-auto](https://mesapplications.shinyapps.io/lys-assurance-auto/)
 
-**Outils :** R, R Markdown, Shiny
+**Outils :** R, R Markdown (LaTeX), Shiny, Modèles GLM
 
 ---
 
