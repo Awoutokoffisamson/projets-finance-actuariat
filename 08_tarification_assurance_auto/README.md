@@ -1,7 +1,7 @@
 # Projet : Analyse et Tarification en Assurance Auto
 
 ## Description
-Ce dossier contient le projet réalisé par **GADO Giovanni** et **AWOUTO Samson** dans le cadre du cursus ISE3. 
+Ce dossier contient le projet réalisé par **AWOUTO Samson** et **GADO Giovanni** dans le cadre du cursus ISE3. 
 
 Il s'agit d'une étude actuarielle complète portant sur la tarification en assurance automobile, basée sur l'approche classique fréquence-sévérité. Le projet s'appuie sur la base de données du *3rd Pricing Game* (100 000 polices d'assurance) et couvre toute la chaîne de modélisation :
 - **Analyse exploratoire :** nettoyage des données, traitement des valeurs aberrantes par winsorisation, étude des corrélations et profilage des risques (véhicules, conducteurs).

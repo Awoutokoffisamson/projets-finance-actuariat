@@ -136,7 +136,7 @@ Le projet comprend :
 
 ### [08. Analyse et tarification en assurance auto](./08_tarification_assurance_auto/)
 
-Étude actuarielle complète portant sur la tarification en assurance automobile, basée sur l'approche classique fréquence-sévérité (Projet réalisé par GADO Giovanni et AWOUTO Samson).
+Étude actuarielle complète portant sur la tarification en assurance automobile, basée sur l'approche classique fréquence-sévérité (Projet réalisé par AWOUTO Samson et GADO Giovanni).
 
 Le projet s'appuie sur la base de données du *3rd Pricing Game* (100 000 polices d'assurance) et couvre toute la chaîne de modélisation actuarielle :
 - **Analyse exploratoire :** traitement des valeurs aberrantes (winsorisation), étude des corrélations et profilage des risques (véhicules, conducteurs).
