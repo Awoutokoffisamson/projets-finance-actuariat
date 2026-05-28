@@ -11,7 +11,7 @@ Dans le cadre de ce projet, une application Shiny a été développée pour pré
 🔗 **Découvrir l'application :** [Lys Assurance Auto](https://mesapplications.shinyapps.io/lys-assurance-auto/)
 
 ## Contenu du Dossier
-- `Projet_GADO_Giovanni&AWOUTO_Samson.Rmd` : Code source RMarkdown contenant les analyses, la modélisation et la génération du rapport.
-- `Projet_GADO_Giovanni-AWOUTO_Samson.pdf` : Rapport final de l'étude.
+- `Code_Tarification_Assurance_Auto.Rmd` : Code source RMarkdown contenant les analyses, la modélisation et la génération du rapport.
+- `Rapport_Tarification_Assurance_Auto.pdf` : Rapport final de l'étude.
 - `Data/` : Répertoire contenant les jeux de données utilisés pour l'analyse.
 - `Sorties/` : Répertoire contenant les différents outputs générés par le code.
