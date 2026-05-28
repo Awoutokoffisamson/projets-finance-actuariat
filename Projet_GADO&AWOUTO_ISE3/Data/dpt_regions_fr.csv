@@ -1,0 +1,102 @@
+hc_a2;name;type;region;dpt;Region
+AI;Ain;Metropolitan department;Auvergne-Rhône-Alpes;1;84
+AS;Aisne;Metropolitan department;Hauts-de-France;2;32
+AL;Allier;Metropolitan department;Auvergne-Rhône-Alpes;3;84
+AP;Alpes-de-Haute-Provence;Metropolitan department;Provence-Alpes-Côte-d'Azur;4;93
+AM;Alpes-Maritimes;Metropolitan department;Provence-Alpes-Côte-d'Azur;6;93
+AH;Ardèche;Metropolitan department;Auvergne-Rhône-Alpes;7;84
+AN;Ardennes;Metropolitan department;Grand Est;8;44
+AG;Ariège;Metropolitan department;Occitanie;9;76
+AB;Aube;Metropolitan department;Grand Est;10;44
+AD;Aude;Metropolitan department;Occitanie;11;76
+AV;Aveyron;Metropolitan department;Occitanie;12;76
+BR;Bas-Rhin;Metropolitan department;Grand Est;67;44
+BD;Bouches-du-Rhône;Metropolitan department;Provence-Alpes-Côte-d'Azur;13;93
+CV;Calvados;Metropolitan department;Normandie;14;28
+CL;Cantal;Metropolitan department;Auvergne-Rhône-Alpes;15;84
+CT;Charente;Metropolitan department;Nouvelle-Aquitaine;16;75
+CM;Charente-Maritime;Metropolitan department;Nouvelle-Aquitaine;17;75
+CH;Cher;Metropolitan department;Centre-Val de Loire;18;24
+CZ;Corrèze;Metropolitan department;Nouvelle-Aquitaine;19;75
+CS;Corse-du-Sud;Metropolitan department;Corse;2A;94
+CO;Côte-d'Or;Metropolitan department;Bourgogne-Franche-Comté;21;27
+CA;Côtes-d'Armor;Metropolitan department;Bretagne;22;53
+CR;Creuse;Metropolitan department;Nouvelle-Aquitaine;23;75
+DS;Deux-Sèvres;Metropolitan department;Nouvelle-Aquitaine;79;75
+DD;Dordogne;Metropolitan department;Nouvelle-Aquitaine;24;75
+DB;Doubs;Metropolitan department;Bourgogne-Franche-Comté;25;27
+DM;Drôme;Metropolitan department;Auvergne-Rhône-Alpes;26;84
+ES;Essonne;Metropolitan department;Île-de-France;91;11
+EU;Eure;Metropolitan department;Normandie;27;28
+EL;Eure-et-Loir;Metropolitan department;Centre-Val de Loire;28;24
+FI;Finistère;Metropolitan department;Bretagne;29;53
+GA;Gard;Metropolitan department;Occitanie;30;76
+GE;Gers;Metropolitan department;Occitanie;32;76
+GI;Gironde;Metropolitan department;Nouvelle-Aquitaine;33;75
+GP;Guadeloupe;Overseas department;Guadeloupe;971;1
+GF;Guyane;Overseas department;Guyane française;973;3
+HC;Haute-Corse;Metropolitan department;Corse;2B;94
+HG;Haute-Garonne;Metropolitan department;Occitanie;31;76
+HL;Haute-Loire;Metropolitan department;Auvergne-Rhône-Alpes;43;84
+HM;Haute-Marne;Metropolitan department;Grand Est;52;44
+HA;Hautes-Alpes;Metropolitan department;Provence-Alpes-Côte-d'Azur;5;93
+HN;Haute-Saône;Metropolitan department;Bourgogne-Franche-Comté;70;27
+HS;Haute-Savoie;Metropolitan department;Auvergne-Rhône-Alpes;74;84
+HP;Hautes-Pyrénées;Metropolitan department;Occitanie;65;76
+HV;Haute-Vienne;Metropolitan department;Nouvelle-Aquitaine;87;75
+HR;Haut-Rhin;Metropolitan department;Grand Est;68;44
+HD;Hauts-de-Seine;Metropolitan department;Île-de-France;92;11
+HE;Hérault;Metropolitan department;Occitanie;34;76
+IV;Ille-et-Vilaine;Metropolitan department;Bretagne;35;53
+IN;Indre;Metropolitan department;Centre-Val de Loire;36;24
+IL;Indre-et-Loire;Metropolitan department;Centre-Val de Loire;37;24
+IS;Isère;Metropolitan department;Auvergne-Rhône-Alpes;38;84
+JU;Jura;Metropolitan department;Bourgogne-Franche-Comté;39;27
+RE;La Réunion;Overseas department;Réunion;974;4
+LD;Landes;Metropolitan department;Nouvelle-Aquitaine;40;75
+LR;Loire;Metropolitan department;Auvergne-Rhône-Alpes;42;84
+LA;Loire-Atlantique;Metropolitan department;Pays de la Loire;44;52
+LT;Loiret;Metropolitan department;Centre-Val de Loire;45;24
+LC;Loir-et-Cher;Metropolitan department;Centre-Val de Loire;41;24
+LO;Lot;Metropolitan department;Occitanie;46;76
+LG;Lot-et-Garonne;Metropolitan department;Nouvelle-Aquitaine;47;75
+LZ;Lozère;Metropolitan department;Occitanie;48;76
+ML;Maine-et-Loire;Metropolitan department;Pays de la Loire;49;52
+MH;Manche;Metropolitan department;Normandie;50;28
+MR;Marne;Metropolitan department;Grand Est;51;44
+MQ;Martinique;Overseas department;Martinique;972;2
+MY;Mayenne;Metropolitan department;Pays de la Loire;53;52
+YT;Mayotte;Overseas department;Mayotte;976;6
+MM;Meurthe-et-Moselle;Metropolitan department;Grand Est;54;44
+MS;Meuse;Metropolitan department;Grand Est;55;44
+MB;Morbihan;Metropolitan department;Bretagne;56;53
+MO;Moselle;Metropolitan department;Grand Est;57;44
+NI;Nièvre;Metropolitan department;Bourgogne-Franche-Comté;58;27
+NO;Nord;Metropolitan department;Hauts-de-France;59;32
+OI;Oise;Metropolitan department;Hauts-de-France;60;32
+OR;Orne;Metropolitan department;Normandie;61;28
+VP;Paris;Metropolitan department;Île-de-France;75;11
+PC;Pas-de-Calais;Metropolitan department;Hauts-de-France;62;32
+PD;Puy-de-Dôme;Metropolitan department;Auvergne-Rhône-Alpes;63;84
+PA;Pyrénées-Atlantiques;Metropolitan department;Nouvelle-Aquitaine;64;75
+PO;Pyrénées-Orientales;Metropolitan department;Occitanie;66;76
+RH;Rhône;Metropolitan department;Auvergne-Rhône-Alpes;69;84
+SL;Saône-et-Loire;Metropolitan department;Bourgogne-Franche-Comté;71;27
+ST;Sarthe;Metropolitan department;Pays de la Loire;72;52
+SV;Savoie;Metropolitan department;Auvergne-Rhône-Alpes;73;84
+SE;Seine-et-Marne;Metropolitan department;Île-de-France;77;11
+SM;Seine-Maritime;Metropolitan department;Normandie;76;28
+SS;Seine-Saint-Denis;Metropolitan department;Île-de-France;93;11
+SO;Somme;Metropolitan department;Hauts-de-France;80;32
+TA;Tarn;Metropolitan department;Occitanie;81;76
+TG;Tarn-et-Garonne;Metropolitan department;Occitanie;82;76
+TB;Territoire de Belfort;Metropolitan department;Bourgogne-Franche-Comté;90;27
+VM;Val-de-Marne;Metropolitan department;Île-de-France;94;11
+VO;Val-d'Oise;Metropolitan department;Île-de-France;95;11
+VR;Var;Metropolitan department;Provence-Alpes-Côte-d'Azur;83;93
+VC;Vaucluse;Metropolitan department;Provence-Alpes-Côte-d'Azur;84;93
+VD;Vendée;Metropolitan department;Pays de la Loire;85;52
+VN;Vienne;Metropolitan department;Nouvelle-Aquitaine;86;75
+VG;Vosges;Metropolitan department;Grand Est;88;44
+YO;Yonne;Metropolitan department;Bourgogne-Franche-Comté;89;27
+YV;Yvelines;Metropolitan department;Île-de-France;78;11
