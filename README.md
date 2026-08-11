@@ -152,6 +152,20 @@ Dans le cadre de ce projet, une application Shiny a été développée pour rend
 
 ---
 
+### [09. Note technique actuarielle, assurance vie mixte](./09_assurance_vie_mixte/)
+
+Conception actuarielle complète d'un produit d'assurance vie mixte (épargne études et constitution de capital avec garantie décès), de l'enquête de besoins à la note technique et au simulateur de tarification (projet réalisé avec Rasmane BAMOGO, Mame Elhadji SARR et Moussa Diakite).
+
+Démarche couvrant l'ensemble de la chaîne actuarielle :
+- **Enquête de besoins :** enquête exploratoire menée en mai 2026 auprès de 32 répondants dans le Grand Dakar, orientant les caractéristiques commerciales du produit.
+- **Conception actuarielle :** garanties en cas de vie et de décès, exclusions contractuelles, base de tarification sur les tables de mortalité CIMA H et CIMA F.
+- **Tarification :** taux technique de 3,5 %, hypothèse de décès uniformément répartis en cours d'année, fonctions de commutation, calcul des primes.
+- **Provisionnement :** règles de constitution des provisions mathématiques et valeurs de rachat, faculté d'avance.
+
+**Outils :** Tables CIMA, tarification vie, provisionnement, Excel, enquête terrain
+
+---
+
 ## Structure du dépôt
 
 ```
@@ -163,7 +177,8 @@ projets-finance-actuariat/
 ├── 05_rsu_burkina/
 ├── 06_dashboard_shiny_burkina/
 ├── 07_econometrie_finance_ARCH_Bitcoin/
-└── 08_tarification_assurance_auto/
+├── 08_tarification_assurance_auto/
+└── 09_assurance_vie_mixte/
 ```
 
 Les fichiers sources (.Rmd, .tex, .R brouillons) ne sont pas versionnés dans ce dépôt.
